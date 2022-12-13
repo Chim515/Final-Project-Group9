@@ -1,0 +1,16 @@
+The code can be from beginning to end, starting with importing the necessary libraries and data. The Global terrorism dataset is utilized
+
+clean_text function - Make text lowercase, remove text in square brackets,remove links,remove punctuation and remove words containing numbers.
+   
+text_preprocessing function - Cleaning and parsing the text
+
+TfidfVectorizer - dictionary that converts each token (word) to feature index in the matrix, each unique token gets a feature index
+
+LabelEncoder - encodes categorical target as numerical values(ex: cat, dog becomes 0,1)
+
+SMOTE - when class imbalance is present creates more representation of the minority classes to match the class with the greatest count
+
+MaxAbsScaler - scales the data and centers it around 0
+
+Gridsearchcv - searches for which parameters of the models minimize loss
+
